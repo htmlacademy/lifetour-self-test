@@ -1,0 +1,10 @@
+.DS_Store
+.idea
+.vscode
+*.ai
+*.log
+*.psd
+*.sublime*
+node_modules/
+backstop_data
+build
