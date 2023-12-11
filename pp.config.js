@@ -25,7 +25,7 @@ const indexSections = [
       },
       {
         "label": "mobile",
-        "width": 320,
+        "width": 350,
         "height": 800,
       },
     ],
