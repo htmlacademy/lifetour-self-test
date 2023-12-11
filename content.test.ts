@@ -43,7 +43,7 @@ const tests: Test[] = [
   }
 ]
 
-describe('basic text styles', async () => {
+describe('CMS ready', async () => {
   let server: PreviewServer
   let browser: Browser
 
@@ -106,7 +106,7 @@ describe('basic text styles', async () => {
       });
     }
   }
-  describe('CMS ready content', async () => {
+  describe('content', async () => {
     await runViewportTest({width: 768, height: 800}, tests);
   })
 });
