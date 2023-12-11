@@ -3,6 +3,7 @@
   "scripts": {
     "build": "gulp build",
     "test": "gulp test",
+    "content": "vitest content.test.ts --ui",
     "w3c": "html-validator source --quiet",
     "linthtml": "linthtml source",
     "html-validate": "html-validate source/index.html",
@@ -17,6 +18,8 @@
     "@htmlacademy/editorconfig-cli": "^2.0.5",
     "@linthtml/linthtml": "^0.9.5",
     "@ls-lint/ls-lint": "^2.1.0",
+    "@vitest/ui": "^0.34.6",
+    "vitest": "^0.34.6",
     "backstopjs": "6.2.2",
     "browser-sync": "2.27.10",
     "del": "^6.1.1",
